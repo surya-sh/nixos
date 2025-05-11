@@ -5,9 +5,9 @@
     inputs.impermanence.nixosModules.home-manager.impermanence
   ];
 
-  home.stateVersion = "23.11"; # Please read the comment before changing.
+  home.stateVersion = "24.11"; # Please read the comment before changing.
 
-  home.persistence."/persist/home" = {
+  home.persistence."/persist/home/surya" = {
     directories = [
       "Downloads"
       "Music"
